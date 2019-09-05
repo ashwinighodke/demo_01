@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  
+<suite name="demo_01" verbose="1" >
+  <test name="test" >
+    <classes>
+       <class name="com.cg.tests.SearchPageTest" />
+    </classes>
+  </test>
+  <test name="test1" >
+    <packages>
+      <package name="com.cg.tests" />
+   </packages>
+  </test>
+</suite>

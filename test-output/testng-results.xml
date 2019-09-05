@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="54776" started-at="2019-09-04T09:51:23Z" finished-at="2019-09-04T09:52:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="54776" started-at="2019-09-04T09:51:23Z" finished-at="2019-09-04T09:52:18Z">
+      <class name="com.cg.tests.MercurySignTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cg.tests.MercurySignTest@51565ec2]" name="setUp" is-config="true" duration-ms="25902" started-at="2019-09-04T15:21:23Z" finished-at="2019-09-04T15:21:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signintest()[pri:0, instance:com.cg.tests.MercurySignTest@51565ec2]" name="signintest" duration-ms="27954" started-at="2019-09-04T15:21:49Z" finished-at="2019-09-04T15:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signintest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.cg.tests.MercurySignTest@51565ec2]" name="teardown" is-config="true" duration-ms="904" started-at="2019-09-04T15:22:17Z" finished-at="2019-09-04T15:22:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.cg.tests.MercurySignTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

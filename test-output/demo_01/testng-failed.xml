@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [demo_01]">
+  <test name="test1(failed)">
+    <classes>
+      <class name="com.cg.tests.SearchPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.cg.tests.SearchPageTest -->
+      <class name="com.cg.tests.phpdemowindowtest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.cg.tests.phpdemowindowtest -->
+      <class name="com.cg.tests.MercuryLoginTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="searchtest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.cg.tests.MercuryLoginTest -->
+      <class name="com.cg.tests.MercurySignTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.cg.tests.MercurySignTest -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [demo_01] -->
